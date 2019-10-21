@@ -37,7 +37,7 @@ import '../assets/css/Tranining.css';
 import c1 from '../assets/images/c1.png';
 import c2 from '../assets/images/c2.png';
 import c3 from '../assets/images/c3.png';
-import { retry } from '@redux-saga/core/effects';
+//import { retry } from '@redux-saga/core/effects';
 
 // class SortableItem extends Component {
 //     constructor(props) {
@@ -122,10 +122,10 @@ import { retry } from '@redux-saga/core/effects';
 // }
 
 
-const SortableItem = sortableElement(({value}) =>{
+/*const SortableItem = sortableElement(({value}) =>{
     
     return <li style={{color: 'red'}}>{value}</li>
-    } 
+    } */
     // <div className="sessionTag">
     //     <div style={{display: 'flex', alignSelf: 'center', marginLeft: '20px'}}>
     //         <div >
@@ -181,11 +181,11 @@ const SortableItem = sortableElement(({value}) =>{
     //         }
     //     </div>                                    
     // </div>                                
-);
+//);
 
-const SortableContainer = sortableContainer(({children}) => {
+/*const SortableContainer = sortableContainer(({children}) => {
   return <ul style={{padding: 0}}>{children}</ul>;
-});
+});*/
 
 
 

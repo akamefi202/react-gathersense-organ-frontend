@@ -122,7 +122,7 @@ class TrainingEdit extends Component {
                                     <Form.Control placeholder="Description" className="inputtxt" />
                                 </Form.Group>
                                 <Divider style={{margin: 20}}/>                                
-                                <div style={this.state.showflag == 0 ? {display: 'block'} : {display: 'none'}}>
+                                <div style={Number(this.state.showflag) === 0 ? {display: 'block'} : {display: 'none'}}>
                                     <Form.Row className="formgroupO" style={{paddingLeft: 5, paddingRight: 5}} >
                                         <Form.Group controlId="formGridQuetion" className="formgrouptxt" >
                                             {/* <Form.Label>Address</Form.Label> */}
@@ -213,7 +213,7 @@ class TrainingEdit extends Component {
                                         </Button>                                    
                                     </div>
                                 </div>
-                                <div style={this.state.showflag == 1 ? {display: 'block'} : {display: 'none'}}>
+                                <div style={Number(this.state.showflag) === 1 ? {display: 'block'} : {display: 'none'}}>
                                     <Form.Row className="formgroupO" style={{paddingLeft: 5, paddingRight: 5}} >
                                         <Form.Group controlId="formGridQuetion" className="formgrouptxt" >
                                             <Form.Control placeholder="Quetion" className="inputtxt" />
@@ -308,7 +308,7 @@ class TrainingEdit extends Component {
                                         </Button>                                    
                                     </div> 
                                 </div>                                                 
-                                <div style={this.state.showflag == 2 ? {display: 'block'} : {display: 'none'}}> 
+                                <div style={Number(this.state.showflag) === 2 ? {display: 'block'} : {display: 'none'}}> 
                                     <Form.Row className="formgroupO" style={{paddingLeft: 5, paddingRight: 5}} >
                                         <Form.Group controlId="formGridQuetion" className="formgrouptxt" >
                                             {/* <Form.Label>Address</Form.Label> */}
@@ -381,7 +381,7 @@ class TrainingEdit extends Component {
                                         </Button>                                    
                                     </div>
                                 </div>
-                                <div style={this.state.showflag == 3 ? {display: 'block'} : {display: 'none'}}>
+                                <div style={Number(this.state.showflag) === 3 ? {display: 'block'} : {display: 'none'}}>
                                     <Form.Row className="formgroupO" style={{paddingLeft: 5, paddingRight: 5}} >
                                         <Form.Group controlId="formGridQuetion" className="formgrouptxt" >
                                             <Form.Control placeholder="Quetion" className="inputtxt" />
